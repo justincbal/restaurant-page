@@ -12,4 +12,4 @@ A restaurant page where the contents displayed are generated via JavaScript.
 - HTML
 - CSS
 - NPM
-- Webkpack
+- Webpack
