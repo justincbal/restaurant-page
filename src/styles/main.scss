@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import '../styles/mixins';
+
+
+
+
+html { 
+    box-sizing: border-box; 
+}
+
+*, *::before, *::after { 
+    box-sizing: inherit; 
+    font-family: 'Cinzel', serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+#content {
+    height: 100vh;
+    background: url(../img/jean-claude-attipoe--sbE6MDlEuM-unsplash.jpg) center center fixed;
+    min-width: 750px;
+    .nav {
+        display: flex;
+        background-color: #121212;
+        box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+        padding: 15px;
+        
+
+        .link {
+            flex: 1;
+            color: white;
+            font-size: 2rem;
+            font-weight: 400;
+            @include flexCen;
+            
+
+            &:hover{
+                cursor: pointer;
+            }
+
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: rgb(196, 157, 0);
+        }
+
+        .cl:hover {
+            border-bottom: 2px solid white;
+        }
+
+    }
+}
+
+.home {
+    background-color: rgba(0, 0, 0, 0.67);
+    height: 80%;
+    margin: 50px;
+    @include flexCen;
+    flex-direction: column;
+    color: white;
+    h1 {
+        
+        font-weight: 900;
+        font-size: 7rem;
+    }
+
+    .buttons {
+        width: 500px;
+        display: flex;
+        justify-content: space-between;
+
+        button {
+            padding: 15px;
+            font-size: 1.5rem;
+            font-weight: 900;
+            background-color: rgb(196, 157, 0);
+            color: white;
+            border: none;
+            width: 200px;
+
+            &:hover {
+                cursor: pointer;
+            }
+        }
+    }
+
+}
+
+
