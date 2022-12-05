@@ -105,10 +105,51 @@ html {
 
     .menu-item {
         background-color: rgba(255, 255, 255, 0.881);
-        border-radius: 5px;
+        border-radius: 2px;
         padding: 20px;
         display: grid;
-        grid-template-columns: 5fr 1fr
+        grid-template-columns: 5fr 1fr;
+
+        h1 {
+            color: rgb(162, 130, 2) ;
+        }
+
+    }
+}
+
+.about {
+    background-color: rgba(0, 0, 0, 0.67);
+    height: 80%;
+    margin: 50px;
+    padding: 50px 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+    .about-sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+
+        h1 {
+            color: rgb(208, 167, 2);
+            font-size: 3rem;
+        }
+        
+        h4 {
+            color: white;
+            font-size: 1.7rem;
+        }
+
+    }
+    
+
+    > * {
+        flex: 1;
     }
 
 }

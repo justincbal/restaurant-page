@@ -9,8 +9,8 @@ const navBar = () => {
     nav.classList.add("nav");
     logo.classList.add("logo", "link");
     home.classList.add("link", "cl", "homeLink");
-    menu.classList.add("link", "cl");
-    about.classList.add("link", "cl");
+    menu.classList.add("link", "cl", 'menuLink');
+    about.classList.add("link", "cl", 'aboutLink');
 
     logo.textContent = "Capri's Cuisine";
     home.textContent = "Home";
