@@ -6,6 +6,7 @@
   "scripts": {
     "build": "webpack",
     "serve": "webpack serve"
+    
   },
   "repository": {
     "type": "git",
