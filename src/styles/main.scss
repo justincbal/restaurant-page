@@ -83,10 +83,32 @@ html {
 
             &:hover {
                 cursor: pointer;
+                color: red;
             }
         }
     }
 
 }
 
+.menu {
+    background-color: rgba(0, 0, 0, 0.67);
+    height: 80%;
+    margin: 50px;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(550px, 200px));
+    justify-content: center;
+    grid-template-rows: 200px;
+    grid-auto-rows: 200px;
+    gap: 20px;
 
+
+    .menu-item {
+        background-color: rgba(255, 255, 255, 0.881);
+        border-radius: 5px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: 5fr 1fr
+    }
+
+}
